@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>courses</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+  <!-- jQuery Modal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  <!-- Navbar Section -->
+  <div class="navbar">
+    <div class="flower"><img src="res/logo-GMC-white.png" alt="My_Plan_B" width="50" height="50"></div>
+    <div class="items">
+      <div class="items"> <a href="index.html">HOME </a></div>
+      <div class="items"><a href="Courses.html">COURSES</a></div>
+      <div class="items"><a href="Contact.html">CONTACT</a> </div>
+    </div>
+  </div>
+  <!-- Main Section -->
+  <div class="main">
+
+    <div class="cover">
+      <h1 class="heading">COURSES</h1>
+    </div>
+    <div class="container">
+      <div class="item1" id="im1">
+        <a href="#ex1" rel="modal:open">
+          <button class="view">View more</button>
+        </a>
+      </div>
+
+      <div class="item2" id="im2" style="opacity: 1; background-color: black;">
+        <a href="#ex1" rel="modal:open">
+          <button class="view">View more</button>
+        </a>
+      </div>
+
+      <div class="item3" id="im3" style="opacity: 1; background-color: black;">
+        <a href="#ex1" rel="modal:open">
+          <button class="view">View more</button>
+        </a>
+      </div>
+
+      <div class="item4" id="im4" style="opacity: 1; background-color: black;">
+        <a href="#ex1" rel="modal:open">
+          <button class="view">View more</button>
+        </a>
+      </div>
+
+      <div class="item5" id="im5" style="opacity: 1; background-color: black;">
+        <a href="#ex1" rel="modal:open">
+          <button class="view">View more</button>
+        </a>
+      </div>
+
+      <div class="item6" id="im6" style="opacity: 1; background-color: black;">
+        <a href="#ex1" rel="modal:open">
+          <button class="view">View more</button>
+        </a>
+      </div>
+
+      <div class="item7" id="im7" style="opacity: 1; background-color: black;">
+        <a href="#ex1" rel="modal:open">
+          <button class="view">View more</button>
+        </a>
+      </div>
+
+      <div class="item8" id="im8" style="opacity: 1; background-color: black;">
+        <a href="#ex1" rel="modal:open">
+          <button class="view">View more</button>
+        </a>
+      </div>
+
+      <div class="item9" id="im9" style="opacity: 1; background-color: black;">
+        <a href="#ex1" rel="modal:open">
+          <button class="view">View more</button>
+        </a>
+      </div>
+    </div>
+    <div class="block-comment"><br><br>
+      <h1>Feedback</h1>
+      <button class="btn-style-courses" onclick="bold()">B</button>
+      <button class="btn-style-courses" onclick="Italic()">I</button>
+      <button class="btn-style-courses" onclick="changeUnderline()">Underline</button>
+      <select id="size" onchange="changefontSize()">
+        <option>20px </option>
+        <option>30px </option>
+        <option>40px </option>
+      </select>
+      <select id="police" onchange="changePolice()">
+        <option>arial </option>
+        <option>verdana </option>
+        <option>geneva </option>
+      </select>
+      <br><br>
+      <textarea name="commentaire" class="from-control" id="mytext" cols="80" rows="5">hello world</textarea>
+    </div>
+
+  </div>
+
+  <!-- Footer Section -->
+  <br><br>
+  <div class="footer">
+    <h4>GoMyCode Hackerspace, Immeuble NEO,ème étage,</h4>
+    <h4>Rue du lac lochness, Berges du Lac1,</h4>
+    <h4> 00216 31 314 570 ,</h4>
+    <h4> @gomycode.com</h4>
+  </div>
+  <div id="ex1" class="modal">
+    <p>This is GoMyCode Track.</p>
+    <p>Each track has its own goal.</p>
+    <p>By adopting this track, you chose your own goal.</p>
+    <a href="#" rel="modal:close">Close</a>
+  </div>
+</body>
+
+</html>
